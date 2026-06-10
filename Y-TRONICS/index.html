@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y-TRONICS | Apple Premium Reseller</title>
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="top-bar">
+        ✨ Free Shipping on orders above ₹49,999 | Official Apple Authorised Reseller ✨
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Y-TRONICS <span><i class="fas fa-apple"></i> premium hub</span></h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" data-filter="all" class="filter-nav active">All</a></li>
+            <li><a href="#" data-filter="iPhone">iPhone</a></li>
+            <li><a href="#" data-filter="Watch">Apple Watch</a></li>
+            <li><a href="#" data-filter="Mac">Mac & iPad</a></li>
+        </ul>
+        <div class="cart-icon" id="cartIcon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Future. Now in your hands.</h2>
+        <p>iPhone 17 Series, iPhone 16 lineup, Apple Watches, MacBooks and more — exclusively at Y-TRONICS</p>
+    </section>
+
+    <!-- Filter Buttons -->
+    <div class="filter-section" id="filterButtons">
+        <button class="filter-btn active" data-filter="all">All Products</button>
+        <button class="filter-btn" data-filter="iPhone">iPhone Series</button>
+        <button class="filter-btn" data-filter="Watch">Apple Watch</button>
+        <button class="filter-btn" data-filter="Mac">Mac & iPad</button>
+    </div>
+
+    <!-- Products Container -->
+    <div class="products-grid" id="productsContainer"></div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-panel" id="cartPanel">
+        <div class="cart-header">
+            <span>Your Bag</span>
+            <button class="close-cart" id="closeCartBtn">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItemsList">
+            <div class="empty-cart-msg">Your cart is empty</div>
+        </div>
+        <div class="cart-total">
+            <span>Total:</span>
+            <span id="cartTotalPrice">₹0</span>
+        </div>
+        <button class="checkout-btn" id="checkoutBtn">Proceed to Checkout <i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <span>About Y-TRONICS</span> | <span>Apple Care+</span> | <span>EMI Available</span> | <span>Store Locator</span>
+        </div>
+        <p>© 2026 Y-TRONICS — India's most trusted Apple destination.</p>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="data/products.json"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

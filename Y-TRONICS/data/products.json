@@ -1,0 +1,22 @@
+{
+  "products": [
+    { "id": 1, "name": "iPhone 17 Pro Max", "desc": "A19 Pro chip, 48MP triple cam, Titanium design", "price": 159900, "category": "iPhone", "badge": "New" },
+    { "id": 2, "name": "iPhone 17 Pro", "desc": "6.3″ OLED, Always-On display, USB-C 3.0", "price": 139900, "category": "iPhone", "badge": "New" },
+    { "id": 3, "name": "iPhone 17 Plus", "desc": "A19 Bionic, 6.9″ screen, 2-day battery", "price": 99900, "category": "iPhone", "badge": "New" },
+    { "id": 4, "name": "iPhone 17", "desc": "Powerful and light, 6.1″ Super Retina XDR", "price": 79900, "category": "iPhone", "badge": "New" },
+    { "id": 5, "name": "iPhone 16 Pro Max", "desc": "A18 Pro, 5x optical zoom, Action button", "price": 144900, "category": "iPhone", "badge": "Best Seller" },
+    { "id": 6, "name": "iPhone 16 Pro", "desc": "6.3″ ProMotion, Titanium frame", "price": 129900, "category": "iPhone", "badge": "" },
+    { "id": 7, "name": "iPhone 16 Plus", "desc": "6.7″ OLED, 48MP main, dynamic island", "price": 89900, "category": "iPhone", "badge": "" },
+    { "id": 8, "name": "iPhone 16", "desc": "A18 chip, USB-C, vivid colors", "price": 79900, "category": "iPhone", "badge": "" },
+    { "id": 9, "name": "Apple Watch Ultra 3", "desc": "49mm titanium, dive-ready, S9 SiP", "price": 89900, "category": "Watch", "badge": "Ultra" },
+    { "id": 10, "name": "Apple Watch Series 10", "desc": "Bigger display, sleep apnea alerts", "price": 49900, "category": "Watch", "badge": "Latest" },
+    { "id": 11, "name": "Apple Watch SE (2026)", "desc": "Essential features, affordable", "price": 29900, "category": "Watch", "badge": "" },
+    { "id": 12, "name": "Apple Watch Hermès", "desc": "Exclusive bands, stainless steel", "price": 119900, "category": "Watch", "badge": "Luxury" },
+    { "id": 13, "name": "MacBook Pro 16″ M4", "desc": "M4 Max, 64GB RAM, Liquid Retina XDR", "price": 249900, "category": "Mac", "badge": "Pro" },
+    { "id": 14, "name": "MacBook Air 15″ M3", "desc": "Lightweight, 18h battery", "price": 119900, "category": "Mac", "badge": "" },
+    { "id": 15, "name": "iPad Pro 13″ M4", "desc": "Ultra Retina XDR, Wi-Fi+Cellular", "price": 129900, "category": "Mac", "badge": "Pro" },
+    { "id": 16, "name": "iPad Air 11″ M2", "desc": "Powerful creative tool", "price": 59900, "category": "Mac", "badge": "" },
+    { "id": 17, "name": "iMac 24″ M4", "desc": "All-in-one, 4.5K display", "price": 139900, "category": "Mac", "badge": "Desktop" },
+    { "id": 18, "name": "Mac mini M4", "desc": "Compact power, desktop workstation", "price": 59900, "category": "Mac", "badge": "" }
+  ]
+}

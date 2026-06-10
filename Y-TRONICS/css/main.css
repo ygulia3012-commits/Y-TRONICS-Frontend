@@ -1,0 +1,48 @@
+/* MAIN STYLES - Global Reset & Variables */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-blue: #0071e3;
+    --primary-blue-dark: #005bb5;
+    --dark-bg: #000000;
+    --light-bg: #fafafc;
+    --text-dark: #1c1c1e;
+    --text-light: #6c6c7e;
+    --border-color: #efeff4;
+    --shadow-sm: 0 2px 12px rgba(0,0,0,0.03);
+    --shadow-md: 0 8px 20px rgba(0,0,0,0.02);
+    --shadow-lg: 0 20px 30px -12px rgba(0,0,0,0.12);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--light-bg);
+    color: var(--text-dark);
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e9e9ef;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}

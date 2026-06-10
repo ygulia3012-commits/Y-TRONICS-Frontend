@@ -1,0 +1,105 @@
+/* PRODUCTS SECTION STYLES */
+.filter-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 35px 5% 25px;
+}
+
+.filter-btn {
+    background: #f1f1f3;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 40px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: var(--dark-bg);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 28px;
+    padding: 20px 5% 60px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 28px;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.2s ease, box-shadow 0.2s;
+    padding: 20px 18px 22px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+}
+
+.product-img {
+    font-size: 4rem;
+    margin-bottom: 12px;
+    color: #2c2c38;
+}
+
+.product-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin: 8px 0 5px;
+}
+
+.product-desc {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.product-price {
+    font-weight: 700;
+    font-size: 1.45rem;
+    margin: 12px 0;
+    color: #1d1d2b;
+}
+
+.add-to-cart {
+    background: var(--primary-blue);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 40px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.add-to-cart:hover {
+    background: var(--primary-blue-dark);
+}
+
+.badge {
+    display: inline-block;
+    background: #eef3ff;
+    color: #0066cc;
+    border-radius: 40px;
+    font-size: 0.7rem;
+    padding: 4px 12px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}

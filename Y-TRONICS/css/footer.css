@@ -1,0 +1,27 @@
+/* FOOTER STYLES */
+footer {
+    background: var(--dark-bg);
+    color: #ccc;
+    padding: 40px 5% 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links span {
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.footer-links span:hover {
+    color: white;
+}
+
+footer p {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
